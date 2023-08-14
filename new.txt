@@ -1,0 +1,127 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="./logo.jpeg" alt="Logo" class="img-fluid rounded-circle shadow-sm" style="width: 80px;">
+
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">Projects</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="jumbotron text-center">
+  <h1 class="display-4">Your Tagline</h1>
+  <p class="lead">Once the user sees who owns the website, they'll want to know what it is you do.</p>
+</div>
+<!-- <div class="tagline-content">
+    <img src="./tag.jpg" alt="Tagline Image" class="img-fluid mb-3">
+    <h1 class="display-4">Your Tagline</h1>
+    <p class="lead">Once the user sees who owns the website, they'll want to know what it is you do.</p> -->
+
+<!-- Services Section -->
+<section id="services" class="container text-center py-5">
+  <h2>Services</h2>
+  <div class="row">
+    <div class="col-md-6 col-lg-3 col-sm-12">
+      <div class="service-box">
+        <img src="./imgs/ux.jpg" alt="Service 1" class="img-fluid service-image">
+        <h3>UX</h3>
+        <p>Description of Service 1.</p>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3 col-sm-12">
+      <div class="service-box">
+        <img src="./imgs/bootstrap.jpg" alt="Service 2" class="img-fluid service-image">
+        <h3>bootstrap</h3>
+        <p>Description of Service 2.</p>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3 col-sm-12">
+      <div class="service-box">
+        <img src="./imgs/java.jpg" alt="Service 3" class="img-fluid service-image">
+        <h3>JavaScript</h3>
+        <p>Description of Service 3.</p>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3 col-sm-12">
+      <div class="service-box">
+        <img src="./imgs/back2.jpg" alt="Service 3" class="img-fluid service-image">
+        <h3>Server Side</h3>
+        <p>Description of Service 3.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Me Section -->
+<section id="about" class="container text-center py-5">
+  <h2>About Me</h2>
+  <!-- Add your about me content here -->
+  <p>Your introduction and details about yourself.</p>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container text-center py-5">
+  <h2>Contact</h2>
+  <!-- Add your contact form or information here -->
+  <p>Contact details and form go here.</p>
+</section>
+
+<!-- Projects Section -->
+<!-- <section id="projects" class="container text-center py-5">
+  <h2>Projects</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <h3>Project 1</h3>
+      <p>Description of Project 1.</p>
+    </div>
+    <div class="col-md-4">
+      <h3>Project 2</h3>
+      <p>Description of Project 2.</p>
+    </div>
+    <div class="col-md-4">
+      <h3>Project 3</h3>
+      <p>Description of Project 3.</p>
+    </div>
+  </div>
+</section> -->
+
+<section id="projects" class="container text-center py-5">
+  <h2>Projects</h2>
+  <div class="row">
+    <div class="col-md-6 col-lg-6 col-sm-12">
+      <div class="service-box">
+        <img src="./imgs/ux.jpg" alt="Service 1" class="img-fluid service-image">
+        <h3>UX</h3>
+        <p>Description of Service 1.</p>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-6 col-sm-12">
+      <div class="service-box">
+        <img src="./imgs/bootstrap.jpg" alt="Service 2" class="img-fluid service-image">
+        <h3>bootstrap</h3>
+        <p>Description of Service 2.</p>
+      </div>
+    </div>
+  
+  </div>
+</section>
